@@ -12,7 +12,7 @@ sys.setdefaultencoding("utf-8")
 ##########################################################
 redis = r.StrictRedis(host='localhost', port=6379, db=0) #
 ##########################################################
-TOKEN = '359855193:AAEL3lSBqPv8EmQcGQafa7-fazq9t6FrsA0' ##TOKEN - توکن                                #
+TOKEN = '' ##TOKEN - توکن                                #
 bot = telebot.TeleBot(TOKEN)                             #
 ##########################################################
 print("\n \033[01;31mBot Is Online Now! :D\n ---------------------\033[0m")
